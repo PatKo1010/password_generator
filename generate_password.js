@@ -1,4 +1,4 @@
-function generatePassword (){
+function generatePassword (options){
 
 //define things user might want 
 const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz'
@@ -6,15 +6,6 @@ const uppercaseLetters = lowercaseLetters.toUpperCase()
 const numbers = '0123456789'
 const symbols = '`~!@$%^&*()-_+={}[]|;:"<>,.?/'
 
-//define dummy data 
-const options = {
-  length: '9',
-  lowercase: 'on',
-  uppercase: 'on',
-  numbers: 'on',
-  symbols: 'on',
-  excludeCharacters: 'a1@'
-}
 
 //create a collection for user to select 
 
